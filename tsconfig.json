@@ -1,9 +1,9 @@
 {
 	"compilerOptions": {
-		"lib": ["es2017", "esnext.asynciterable"],
+		"lib": ["es2019", "esnext.asynciterable"],
 		"module": "commonjs",
 		"target": "esnext",
-		"rootDir": "./src/",
+		"rootDir": "./",
 		"outDir": "./dist/",
 		"sourceMap": true,
 		"noUnusedLocals": true,
@@ -22,13 +22,16 @@
 		"strictPropertyInitialization": true,
 		"baseUrl": "./",
 		"paths": {
-			"@root": ["src"],
-			"@root/*": ["src/*"],
-			"@2015/*": ["src/2015/*"],
-			"@2018/*": ["src/2018/*"]
+			"@lib": ["lib/typescript"],
+			"@lib/*": ["lib/typescript/*"],
+			"@2015/*": ["2015/*"],
+			"@2016/*": ["2016/*"],
+			"@2017/*": ["2017/*"],
+			"@2018/*": ["2018/*"],
+			"@2019/*": ["2019/*"]
 		},
 		"typeRoots": ["./node_modules/@types"]
 	},
-	"include": ["./src/**/*"],
+	"include": ["lib", "2015", "2016", "2017", "2018", "2019"],
 	"exclude": ["**/node_modules/**/*"]
 }

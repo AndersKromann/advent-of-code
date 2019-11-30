@@ -1,15 +1,15 @@
 [workspace]
 members = [
-	"src/lib/rust",
+	"lib/rust",
 	"scaffold",
 	"scaffold/aoc-query",
-	"src/2015/day01/rust",
-	"src/2015/day02/rust",
-	"src/2015/day03/rust",
-	"src/2015/day04/rust",
-	"src/2015/day05/rust",
-	"src/2016/day01/rust",
-	"src/2018/day01/rust",
+	"2015/01/rust",
+	"2015/02/rust",
+	"2015/03/rust",
+	"2015/04/rust",
+	"2015/05/rust",
+	"2016/01/rust",
+	"2018/01/rust",
 ]
 
 [profile.bench]
