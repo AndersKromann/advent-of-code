@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.com/AlexAegis/advent-of-code.svg?branch=master)](https://travis-ci.com/AlexAegis/advent-of-code) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/3dbac1abe814499882d2ed419cbe8a55)](https://app.codacy.com/app/AlexAegis/advent-of-code?utm_source=github.com&utm_medium=referral&utm_content=AlexAegis/advent-of-code&utm_campaign=Badge_Grade_Dashboard) [![Maintainability](https://api.codeclimate.com/v1/badges/5df3d3d67dfe389dc929/maintainability)](https://codeclimate.com/github/AlexAegis/advent-of-code/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/5df3d3d67dfe389dc929/test_coverage)](https://codeclimate.com/github/AlexAegis/advent-of-code/test_coverage) [![codecov](https://img.shields.io/codecov/c/github/AlexAegis/advent-of-code.svg?label=node%20coverage)](https://codecov.io/gh/AlexAegis/advent-of-code) [![Coverage Status](https://img.shields.io/coveralls/github/AlexAegis/advent-of-code.svg?label=rust%20coverage)](https://coveralls.io/github/AlexAegis/advent-of-code?branch=master) [![snyk: vulnerabilities](https://img.shields.io/snyk/vulnerabilities/github/AlexAegis/advent-of-code.svg?style=popout)](https://app.snyk.io/org/alexaegis/project/82929b9b-f679-4b1c-8804-bff40110b7dd) [![Greenkeeper badge](https://badges.greenkeeper.io/AlexAegis/advent-of-code.svg)](https://greenkeeper.io/) [![Last Commit on GitHub](https://img.shields.io/github/last-commit/AlexAegis/advent-of-code.svg)](https://github.com/AlexAegis/advent-of-code) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
-[![2019 Progress](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/AlexAegis/advent-of-code/master/.github/badges/2019.json)](./src/2019/) [![2018 Progress](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/AlexAegis/advent-of-code/master/.github/badges/2018.json)](./src/2018/) [![2017 Progress](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/AlexAegis/advent-of-code/master/.github/badges/2017.json)](./src/2017/) [![2016 Progress](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/AlexAegis/advent-of-code/master/.github/badges/2016.json)](./src/2016/) [![2015 Progress](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/AlexAegis/advent-of-code/master/.github/badges/2015.json)](./src/2015/)
+[![2019 Progress](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/AlexAegis/advent-of-code/master/.github/badges/2019.json)](./2019/) [![2018 Progress](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/AlexAegis/advent-of-code/master/.github/badges/2018.json)](./2018/) [![2017 Progress](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/AlexAegis/advent-of-code/master/.github/badges/2017.json)](./2017/) [![2016 Progress](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/AlexAegis/advent-of-code/master/.github/badges/2016.json)](./2016/) [![2015 Progress](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/AlexAegis/advent-of-code/master/.github/badges/2015.json)](./2015/)
 
 ### [Leaderboards](https://adventofcode.com/2018/leaderboard/private/view/515399)
 
@@ -10,7 +10,7 @@ Join me on my private leaderboard! You can find my invitation code [here](./.aoc
 
 ## [2019](https://adventofcode.com/2017/)
 
-[![2019 Progress](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/AlexAegis/advent-of-code/master/.github/badges/2019.json)](./src/2019/)
+[![2019 Progress](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/AlexAegis/advent-of-code/master/.github/badges/2019.json)](./2019/)
 
 | Day    | Part One   |      | Part Two   |      |
 | ------ | ---------- | ---- | ---------- | ---- |
@@ -43,40 +43,40 @@ Join me on my private leaderboard! You can find my invitation code [here](./.aoc
 
 ## [2018](https://adventofcode.com/2018/)
 
-[![2018 Progress](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/AlexAegis/advent-of-code/master/.github/badges/2018.json)](./src/2018/)
+[![2018 Progress](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/AlexAegis/advent-of-code/master/.github/badges/2018.json)](./2018/)
 
-| Day                         | Part One                                                    |                                          | Part Two                                                 |                                            |
-| --------------------------- | ----------------------------------------------------------- | ---------------------------------------- | -------------------------------------------------------- | ------------------------------------------ |
-|                             | TypeScript                                                  | Rust                                     | TypeScript                                               | Rust                                       |
-| [Day 1](./src/2018/day01/)  | [0.9ms](./src/2018/day01/typescript/part_one.ts)            | [13μs](./src/2018/day01/rust/src/lib.rs) | [ 10ms ](./src/2018/day01/typescript/part_two.ts)        | [12.2μs](./src/2018/day01/rust/src/lib.rs) |
-| [Day 2](./src/2018/day02/)  | [9ms](./src/2018/day02/typescript/part_one.ts)              |                                          | [ 9.6ms ](./src/2018/day02/typescript/part_two.ts)       |                                            |
-| [Day 3](./src/2018/day03/)  | [265ms](./src/2018/day03/typescript/part_one.ts)            |                                          | [ 234ms ](./src/2018/day03/typescript/part_two.ts)       |                                            |
-| [Day 4](./src/2018/day04/)  | [6ms](./src/2018/day04/typescript/part_one.ts)              |                                          | [ 4ms ](./src/2018/day04/typescript/part_two.ts)         |                                            |
-| [Day 5](./src/2018/day05/)  | [15ms](./src/2018/day05/typescript/collapse.function.ts) 🌟 |                                          | [ 326ms ](./src/2018/day05/typescript/part_two.ts)       |                                            |
-| [Day 6](./src/2018/day06/)  | [230ms](./src/2018/day06/typescript/part_one.ts)            |                                          | [ 46ms ](./src/2018/day06/typescript/part_two.ts)        |                                            |
-| [Day 7](./src/2018/day07/)  | [1ms](./src/2018/day07/typescript/part_one.ts)              |                                          | [ 24ms ](./src/2018/day07/typescript/part_two.ts)        |                                            |
-| [Day 8](./src/2018/day08/)  | [6ms](./src/2018/day08/typescript/model/node.class.ts) 🌟   |                                          | [ 6ms ](./src/2018/day08/typescript/model/node.class.ts) |                                            |
-| [Day 9](./src/2018/day09/)  | [9ms ](./src/2018/day09/typescript/part_one.ts)             |                                          | [ 274ms ](./src/2018/day09/typescript/part_two.ts)       |                                            |
-| [Day 10](./src/2018/day10/) | [305ms](./src/2018/day10/typescript/task.ts)                |                                          | [ 305ms ](./src/2018/day10/typescript/task.ts)           |                                            |
-| [Day 11](./src/2018/day11/) | [165ms](./src/2018/day11/typescript/part_one.ts)            |                                          | [ 63007ms ](./src/2018/day11/typescript/part_two.ts)     |                                            |
-| [Day 12](./src/2018/day12/) | [0.8ms](./src/2018/day12/typescript/part_one.ts)            |                                          | [ 11ms ](./src/2018/day12/typescript/part_two.ts)        |                                            |
-| [Day 13](./src/2018/day13/) | [17ms](./src/2018/day13/typescript/model/cart.class.ts)     |                                          | [ 51ms ](./src/2018/day13/typescript/part_two.ts)        |                                            |
-| [Day 14](./src/2018/day14/) | [9.6ms](./src/2018/day14/typescript/part_one.ts)            |                                          | [ 900ms ](./src/2018/day14/typescript/part_two.ts)       |                                            |
-| [Day 15](./src/2018/day15/) |                                                             |                                          |                                                          |                                            |
-| Day 16                      |                                                             |                                          |                                                          |                                            |
-| Day 17                      |                                                             |                                          |                                                          |                                            |
-| Day 18                      |                                                             |                                          |                                                          |                                            |
-| Day 19                      |                                                             |                                          |                                                          |                                            |
-| Day 20                      |                                                             |                                          |                                                          |                                            |
-| Day 21                      |                                                             |                                          |                                                          |                                            |
-| Day 22                      |                                                             |                                          |                                                          |                                            |
-| Day 23                      |                                                             |                                          |                                                          |                                            |
-| Day 24                      |                                                             |                                          |                                                          |                                            |
-| Day 25                      |                                                             |                                          |                                                          |                                            |
+| Day                  | Part One                                             |                               | Part Two                                        |                                 |
+| -------------------- | ---------------------------------------------------- | ----------------------------- | ----------------------------------------------- | ------------------------------- |
+|                      | TypeScript                                           | Rust                          | TypeScript                                      | Rust                            |
+| [Day 1](./2018/01/)  | [0.9ms](./2018/01/typescript/part_one.ts)            | [13μs](./2018/01/rust/lib.rs) | [10ms](./2018/01/typescript/part_two.ts)        | [12.2μs](./2018/01/rust/lib.rs) |
+| [Day 2](./2018/02/)  | [9ms](./2018/02/typescript/part_one.ts)              |                               | [9.6ms](./2018/02/typescript/part_two.ts)       |                                 |
+| [Day 3](./2018/03/)  | [265ms](./2018/03/typescript/part_one.ts)            |                               | [234ms](./2018/03/typescript/part_two.ts)       |                                 |
+| [Day 4](./2018/04/)  | [6ms](./2018/04/typescript/part_one.ts)              |                               | [4ms](./2018/04/typescript/part_two.ts)         |                                 |
+| [Day 5](./2018/05/)  | [15ms](./2018/05/typescript/collapse.function.ts) 🌟 |                               | [326ms](./2018/05/typescript/part_two.ts)       |                                 |
+| [Day 6](./2018/06/)  | [230ms](./2018/06/typescript/part_one.ts)            |                               | [46ms](./2018/06/typescript/part_two.ts)        |                                 |
+| [Day 7](./2018/07/)  | [1ms](./2018/07/typescript/part_one.ts)              |                               | [24ms](./2018/07/typescript/part_two.ts)        |                                 |
+| [Day 8](./2018/08/)  | [6ms](./2018/08/typescript/model/node.class.ts) 🌟   |                               | [6ms](./2018/08/typescript/model/node.class.ts) |                                 |
+| [Day 9](./2018/09/)  | [9ms ](./2018/09/typescript/part_one.ts)             |                               | [274ms](./2018/09/typescript/part_two.ts)       |                                 |
+| [Day 10](./2018/10/) | [305ms](./2018/10/typescript/task.ts)                |                               | [305ms](./2018/10/typescript/task.ts)           |                                 |
+| [Day 11](./2018/11/) | [165ms](./2018/11/typescript/part_one.ts)            |                               | [63007ms](./2018/11/typescript/part_two.ts)     |                                 |
+| [Day 12](./2018/12/) | [0.8ms](./2018/12/typescript/part_one.ts)            |                               | [11ms](./2018/12/typescript/part_two.ts)        |                                 |
+| [Day 13](./2018/13/) | [17ms](./2018/13/typescript/model/cart.class.ts)     |                               | [51ms](./2018/13/typescript/part_two.ts)        |                                 |
+| [Day 14](./2018/14/) | [9.6ms](./2018/14/typescript/part_one.ts)            |                               | [900ms](./2018/14/typescript/part_two.ts)       |                                 |
+| [Day 15](./2018/15/) |                                                      |                               |                                                 |                                 |
+| Day 16               |                                                      |                               |                                                 |                                 |
+| Day 17               |                                                      |                               |                                                 |                                 |
+| Day 18               |                                                      |                               |                                                 |                                 |
+| Day 19               |                                                      |                               |                                                 |                                 |
+| Day 20               |                                                      |                               |                                                 |                                 |
+| Day 21               |                                                      |                               |                                                 |                                 |
+| Day 22               |                                                      |                               |                                                 |                                 |
+| Day 23               |                                                      |                               |                                                 |                                 |
+| Day 24               |                                                      |                               |                                                 |                                 |
+| Day 25               |                                                      |                               |                                                 |                                 |
 
 ## [2017](https://adventofcode.com/2017/)
 
-[![2017 Progress](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/AlexAegis/advent-of-code/master/.github/badges/2017.json)](./src/2017/)
+[![2017 Progress](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/AlexAegis/advent-of-code/master/.github/badges/2017.json)](./2017/)
 
 | Day    | Part One   |      | Part Two   |      |
 | ------ | ---------- | ---- | ---------- | ---- |
@@ -109,69 +109,69 @@ Join me on my private leaderboard! You can find my invitation code [here](./.aoc
 
 ## [2016](https://adventofcode.com/2016/)
 
-[![2016 Progress](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/AlexAegis/advent-of-code/master/.github/badges/2016.json)](./src/2016/)
+[![2016 Progress](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/AlexAegis/advent-of-code/master/.github/badges/2016.json)](./2016/)
 
-| Day                        | Part One                                          |      | Part Two                                          |      |
-| -------------------------- | ------------------------------------------------- | ---- | ------------------------------------------------- | ---- |
-|                            | TypeScript                                        | Rust | TypeScript                                        | Rust |
-| [Day 1](./src/2015/day01/) | [0.37ms](./src/2016/day01/typescript/part_one.ts) |      | [0.48ms](./src/2016/day01/typescript/part_two.ts) |      |
-| Day 2                      |                                                   |      |                                                   |      |
-| Day 3                      |                                                   |      |                                                   |      |
-| Day 4                      |                                                   |      |                                                   |      |
-| Day 5                      |                                                   |      |                                                   |      |
-| Day 6                      |                                                   |      |                                                   |      |
-| Day 7                      |                                                   |      |                                                   |      |
-| Day 8                      |                                                   |      |                                                   |      |
-| Day 9                      |                                                   |      |                                                   |      |
-| Day 10                     |                                                   |      |                                                   |      |
-| Day 11                     |                                                   |      |                                                   |      |
-| Day 12                     |                                                   |      |                                                   |      |
-| Day 13                     |                                                   |      |                                                   |      |
-| Day 14                     |                                                   |      |                                                   |      |
-| Day 15                     |                                                   |      |                                                   |      |
-| Day 16                     |                                                   |      |                                                   |      |
-| Day 17                     |                                                   |      |                                                   |      |
-| Day 18                     |                                                   |      |                                                   |      |
-| Day 19                     |                                                   |      |                                                   |      |
-| Day 20                     |                                                   |      |                                                   |      |
-| Day 21                     |                                                   |      |                                                   |      |
-| Day 22                     |                                                   |      |                                                   |      |
-| Day 23                     |                                                   |      |                                                   |      |
-| Day 24                     |                                                   |      |                                                   |      |
-| Day 25                     |                                                   |      |                                                   |      |
+| Day                 | Part One                                   |      | Part Two                                   |      |
+| ------------------- | ------------------------------------------ | ---- | ------------------------------------------ | ---- |
+|                     | TypeScript                                 | Rust | TypeScript                                 | Rust |
+| [Day 1](./2015/01/) | [0.37ms](./2016/01/typescript/part_one.ts) |      | [0.48ms](./2016/01/typescript/part_two.ts) |      |
+| Day 2               |                                            |      |                                            |      |
+| Day 3               |                                            |      |                                            |      |
+| Day 4               |                                            |      |                                            |      |
+| Day 5               |                                            |      |                                            |      |
+| Day 6               |                                            |      |                                            |      |
+| Day 7               |                                            |      |                                            |      |
+| Day 8               |                                            |      |                                            |      |
+| Day 9               |                                            |      |                                            |      |
+| Day 10              |                                            |      |                                            |      |
+| Day 11              |                                            |      |                                            |      |
+| Day 12              |                                            |      |                                            |      |
+| Day 13              |                                            |      |                                            |      |
+| Day 14              |                                            |      |                                            |      |
+| Day 15              |                                            |      |                                            |      |
+| Day 16              |                                            |      |                                            |      |
+| Day 17              |                                            |      |                                            |      |
+| Day 18              |                                            |      |                                            |      |
+| Day 19              |                                            |      |                                            |      |
+| Day 20              |                                            |      |                                            |      |
+| Day 21              |                                            |      |                                            |      |
+| Day 22              |                                            |      |                                            |      |
+| Day 23              |                                            |      |                                            |      |
+| Day 24              |                                            |      |                                            |      |
+| Day 25              |                                            |      |                                            |      |
 
 ## [2015](https://adventofcode.com/2015/)
 
-[![2015 Progress](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/AlexAegis/advent-of-code/master/.github/badges/2015.json)](./src/2015/)
+[![2015 Progress](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/AlexAegis/advent-of-code/master/.github/badges/2015.json)](./2015/)
 
-| Day                        | Part One                                                     |                                             | Part Two                                                   |                                             |
-| -------------------------- | ------------------------------------------------------------ | ------------------------------------------- | ---------------------------------------------------------- | ------------------------------------------- |
-|                            | TypeScript                                                   | Rust                                        | TypeScript                                                 | Rust                                        |
-| [Day 1](./src/2015/day01/) | [0.5ms](./src/2015/day01/typescript/part_one.ts)             | [6.2μs\*](./src/2015/day01/rust/src/lib.rs) | [1.2ms](./src/2015/day01/typescript/part_two.ts)           | [1.9μs\*](./src/2015/day01/rust/src/lib.rs) |
-| [Day 2](./src/2015/day02/) | [2ms](./src/2015/day02/typescript/part_one.ts)               | [194μs\*](./src/2015/day02/rust/src/lib.rs) | [2.4ms](./src/2015/day02/typescript/part_two.ts)           | [196μs\*](./src/2015/day02/rust/src/lib.rs) |
-| [Day 3](./src/2015/day03/) | [2.6ms](./src/2015/day03/typescript/part_one.ts)             | [231μs\*](./src/2015/day03/rust/src/lib.rs) | [2.8ms](./src/2015/day03/typescript/part_two.ts)           | [256μs\*](./src/2015/day03/rust/src/lib.rs) |
-| [Day 4](./src/2015/day04/) | [663ms](./src/2015/day04/typescript/hash-search.function.ts) | [506ms](./src/2015/day04/rust/src/lib.rs)   | [19s](./src/2015/day04/typescript/hash-search.function.ts) | [14s](./src/2015/day04/rust/src/lib.rs)     |
-| [Day 5](./src/2015/day05/) | [13ms](./src/2015/day05/typescript/part_one.ts)              | [193μs](./src/2015/day05/rust/src/lib.rs)   | [21ms](./src/2015/day05/typescript/part_two.ts)            | [4ms](./src/2015/day05/rust/src/lib.rs)     |
-| Day 6                      |                                                              |                                             |                                                            |                                             |
-| Day 7                      |                                                              |                                             |                                                            |                                             |
-| Day 8                      |                                                              |                                             |                                                            |                                             |
-| Day 9                      |                                                              |                                             |                                                            |                                             |
-| Day 10                     |                                                              |                                             |                                                            |                                             |
-| Day 11                     |                                                              |                                             |                                                            |                                             |
-| Day 12                     |                                                              |                                             |                                                            |                                             |
-| Day 13                     |                                                              |                                             |                                                            |                                             |
-| Day 14                     |                                                              |                                             |                                                            |                                             |
-| Day 15                     |                                                              |                                             |                                                            |                                             |
-| Day 16                     |                                                              |                                             |                                                            |                                             |
-| Day 17                     |                                                              |                                             |                                                            |                                             |
-| Day 18                     |                                                              |                                             |                                                            |                                             |
-| Day 19                     |                                                              |                                             |                                                            |                                             |
-| Day 20                     |                                                              |                                             |                                                            |                                             |
-| Day 21                     |                                                              |                                             |                                                            |                                             |
-| Day 22                     |                                                              |                                             |                                                            |                                             |
-| Day 23                     |                                                              |                                             |                                                            |                                             |
-| Day 24                     |                                                              |                                             |                                                            |                                             |
-| Day 25                     |                                                              |                                             |                                                            |                                             |
+| Day                 | Part One                                              |                                  | Part Two                                            |                                  |
+| ------------------- | ----------------------------------------------------- | -------------------------------- | --------------------------------------------------- | -------------------------------- |
+|                     | TypeScript                                            | Rust                             | TypeScript                                          | Rust                             |
+| [Day 1](./2015/01/) | [0.5ms](./2015/01/typescript/part_one.ts)             | [6.2μs\*](./2015/01/rust/lib.rs) | [1.2ms](./2015/01/typescript/part_two.ts)           | [1.9μs\*](./2015/01/rust/lib.rs) |
+| [Day 2](./2015/02/) | [2ms](./2015/02/typescript/part_one.ts)               | [194μs\*](./2015/02/rust/lib.rs) | [2.4ms](./2015/02/typescript/part_two.ts)           | [196μs\*](./2015/02/rust/lib.rs) |
+| [Day 3](./2015/03/) | [2.6ms](./2015/03/typescript/part_one.ts)             | [231μs\*](./2015/03/rust/lib.rs) | [2.8ms](./2015/03/typescript/part_two.ts)           | [256μs\*](./2015/03/rust/lib.rs) |
+| [Day 4](./2015/04/) | [663ms](./2015/04/typescript/hash-search.function.ts) | [506ms](./2015/04/rust/lib.rs)   | [19s](./2015/04/typescript/hash-search.function.ts) | [14s](./2015/04/rust/lib.rs)     |
+| [Day 5](./2015/05/) | [13ms](./2015/05/typescript/part_one.ts)              | [193μs](./2015/05/rust/lib.rs)   | [21ms](./2015/05/typescript/part_two.ts)            | [4ms](./2015/05/rust/lib.rs)     |
+| Day 6               |                                                       |                                  |                                                     |                                  |
+| Day 7               |                                                       |                                  |                                                     |                                  |
+| Day 8               |                                                       |                                  |                                                     |                                  |
+| Day 9               |                                                       |                                  |                                                     |                                  |
+| Day 10              |                                                       |                                  |                                                     |                                  |
+| Day 11              |                                                       |                                  |                                                     |                                  |
+| Day 12              |                                                       |                                  |                                                     |                                  |
+| Day 13              |                                                       |                                  |                                                     |                                  |
+| Day 14              |                                                       |                                  |                                                     |                                  |
+| Day 15              |                                                       |                                  |                                                     |                                  |
+| Day 16              |                                                       |                                  |                                                     |                                  |
+| Day 17              |                                                       |                                  |                                                     |                                  |
+| Day 18              |                                                       |                                  |                                                     |                                  |
+| Day 19              |                                                       |                                  |                                                     |                                  |
+| Day 20              |                                                       |                                  |                                                     |                                  |
+| Day 21              |                                                       |                                  |                                                     |                                  |
+| Day 22              |                                                       |                                  |                                                     |                                  |
+| Day 23              |                                                       |                                  |                                                     |                                  |
+| Day 24              |                                                       |                                  |                                                     |                                  |
+| Day 25              |                                                       |                                  |                                                     |                                  |
 
 > \* measured on 8700k@4.8Ghz
 
@@ -239,16 +239,16 @@ cargo run -p aoc201601
 
 ### Testing
 
-Run in the cargo you'd like to test
+Specify the day you'd like to test
+
+```bash
+cargo test --p aoc201901
+```
+
+Or to run all at once
 
 ```bash
 cargo test
-```
-
-Or in the workspace cargo if you'd like to run all tests
-
-```bash
-cargo test --all
 ```
 
 ### Benchmarking
@@ -256,19 +256,19 @@ cargo test --all
 Run a specific days benchmark
 
 ```bash
-cargo bench -p aoc201501
+cargo bench -p aoc201901
 ```
 
 Or in the workspace cargo if you'd like to run all benchmarks (Takes a while!)
 
 ```bash
-cargo bench --all
+cargo bench
 ```
 
 ## Scaffolding
 
 ```bash
-cargo run -p scaffold 2016 01
+cargo run -p scaffold 2019 01
 ```
 
 ## Notes
