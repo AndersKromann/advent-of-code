@@ -1,4 +1,4 @@
-import { bench, read, split } from '@lib';
+import { bench, read, split } from 'aoclib';
 import { Args, day, year } from '../typescript';
 import { Graph } from './model/graph.interface';
 import { Node } from './model/node.class';

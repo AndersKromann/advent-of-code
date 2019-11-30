@@ -1,4 +1,4 @@
-import { read } from '@lib';
+import { read } from 'aoclib';
 import { expect } from 'chai';
 import { day, results, year } from '../../typescript';
 import { runner } from '../part_two';

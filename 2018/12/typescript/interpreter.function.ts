@@ -1,4 +1,4 @@
-import { split } from '@lib';
+import { split } from 'aoclib';
 import { Cave } from './model/cave.class';
 
 export const interpreter = (input: string): Cave | undefined => {

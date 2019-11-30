@@ -1,4 +1,4 @@
-import { bench, read, split } from '@lib';
+import { bench, read, split } from 'aoclib';
 import { day, year } from '../typescript';
 
 interface Graph {

@@ -1,4 +1,4 @@
-import { DayInputs, DayResults } from '@lib';
+import { DayInputs, DayResults } from 'aoclib';
 
 export const year = 2015;
 export const day = 5;

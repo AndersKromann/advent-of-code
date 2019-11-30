@@ -1,4 +1,4 @@
-import { bench, read } from '@lib';
+import { bench, read } from 'aoclib';
 import { Args, day, year } from '../typescript';
 import { interpret } from './interpret.function';
 import { Coord } from './model/coord.class';

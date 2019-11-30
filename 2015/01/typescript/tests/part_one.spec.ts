@@ -1,7 +1,7 @@
-import { read } from '@lib';
+import { read } from 'aoclib';
 import { expect } from 'chai';
-import { day, results, year } from '../../typescript';
-import { runner } from '../part_one';
+import { day, results, year } from '../src';
+import { runner } from '../src/part_one';
 
 describe(`${year} - Day ${day} - Part One`, () => {
 	it(`should resolve to ${results.one.input} when using the input`, async () => {

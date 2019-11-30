@@ -1,4 +1,4 @@
-import { bench } from '@lib';
+import { bench } from 'aoclib';
 import { inputs } from '../typescript';
 import { range } from './functions/range.generator';
 import { Coord } from './model/coord.class';

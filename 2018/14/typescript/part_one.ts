@@ -1,4 +1,4 @@
-import { bench } from '@lib';
+import { bench } from 'aoclib';
 
 export const runner = (input: number): string => {
 	const recipes: number[] = [3, 7];

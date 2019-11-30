@@ -1,6 +1,6 @@
-import { read } from '@lib';
+import { read } from 'aoclib';
 import { expect } from 'chai';
-import * as isCI from 'is-ci';
+import isCI from 'is-ci';
 import { day, results, year } from '../../typescript';
 import { runner } from '../part_one';
 

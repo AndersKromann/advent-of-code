@@ -1,4 +1,4 @@
-import { bench, max, min, read } from '@lib';
+import { bench, max, min, read } from 'aoclib';
 import { day, year } from '../typescript';
 import { Boundary } from './boundary.interface';
 import { interpreter } from './interpreter.function';

@@ -1,0 +1,12 @@
+{
+	"name": "aoclib",
+	"displayName": "Advent of Code 2015 day 1",
+	"description": "Advent of Code solution for 2015 day 1",
+	"version": "1.0.0",
+	"dependencies": {
+		"aoclib": "workspace:*"
+	},
+	"bin": {
+		"aoc201501": "./src/part_one.ts"
+	}
+}

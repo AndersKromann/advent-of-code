@@ -1,4 +1,4 @@
-import { asc, bench, dup, mult, read, split, sum } from '@lib';
+import { asc, bench, dup, mult, read, split, sum } from 'aoclib';
 import { day, year } from '../typescript';
 
 export const runner = (input: string): number =>

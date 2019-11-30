@@ -1,4 +1,4 @@
-import { DayResults } from '@lib';
+import { DayResults } from 'aoclib';
 
 export const year = {{year}};
 export const day = {{short_day}};

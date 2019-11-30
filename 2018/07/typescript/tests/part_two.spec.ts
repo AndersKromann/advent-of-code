@@ -1,4 +1,4 @@
-import { read } from '@lib';
+import { read } from 'aoclib';
 import { expect } from 'chai';
 import { Args, day, results, year } from '../../typescript';
 import { Node } from '../model/node.class';

@@ -1,4 +1,4 @@
-import { bench, read } from '@lib';
+import { bench, read } from 'aoclib';
 import { day, year } from '../typescript';
 import { collapse } from './collapse.function';
 

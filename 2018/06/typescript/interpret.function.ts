@@ -1,4 +1,4 @@
-import { split } from '@lib';
+import { split } from 'aoclib';
 import { Coord } from './model/coord.class';
 
 export const interpret = (input: string): Coord[] => {

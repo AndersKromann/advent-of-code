@@ -1,4 +1,4 @@
-import { split } from '@lib';
+import { split } from 'aoclib';
 import { Event } from './model/event.interface';
 
 const interpretLine = (line: string): Event => {

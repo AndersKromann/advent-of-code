@@ -1,4 +1,4 @@
-import { split } from '@lib';
+import { split } from 'aoclib';
 import { Cart } from './model/cart.class';
 import { Coord } from './model/coord.class';
 import { DirectionMarker } from './model/direction-marker.type';

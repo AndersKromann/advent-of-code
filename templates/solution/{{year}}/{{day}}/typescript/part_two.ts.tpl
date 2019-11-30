@@ -1,4 +1,4 @@
-import { bench, read } from '@lib';
+import { bench, read } from 'aoclib';
 import { day, year } from '.';
 
 export const runner = async (input: string) => {

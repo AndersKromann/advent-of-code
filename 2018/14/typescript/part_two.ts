@@ -1,4 +1,4 @@
-import { bench } from '@lib';
+import { bench } from 'aoclib';
 
 function shift(window: string, last: number, length: number): string {
 	if (window.length >= length) {
