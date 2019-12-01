@@ -1,5 +1,5 @@
 use aoclib::Solvable;
-
+/*
 #[test]
 fn input() -> aoclib::Result<()> {
 	let input = aoclib::reader(2019, 1, "input.txt")?;
@@ -24,3 +24,4 @@ fn example_3() -> aoclib::Result<()> {
 	assert_eq!(aoc201901::PartTwo::solve("100756")?, 50346);
 	Ok(())
 }
+*/

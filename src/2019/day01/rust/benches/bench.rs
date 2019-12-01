@@ -14,7 +14,8 @@ fn part_one_benchmark(c: &mut Criterion) {
 fn part_two_benchmark(c: &mut Criterion) {
 	c.bench_function("2019 day 1 part two", |b| {
 		let input = aoclib::reader(2019, 1, "input.txt").unwrap();
-		b.iter(|| aoc201901::PartTwo::solve(&input).unwrap())
+		let inp = aoc201901::PartTwo::interpret(&input);
+		b.iter(|| aoc201901::PartTwo::solve(&inp).unwrap())
 	});
 }
 
