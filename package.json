@@ -14,9 +14,8 @@
 		"url": "https://github.com/AlexAegis/advent-of-code/issues"
 	},
 	"scripts": {
-		"lin": "tslint --project",
-		"lint": "tslint --project .",
-		"lint:fix": "tslint --project . --fix",
+		"lint": "eslint --project .",
+		"lint:fix": "eslint --project . --fix",
 		"format": "prettier --write \"src/**/*\"",
 		"prettier": "npm run format",
 		"test": "mocha --config ./.mocharc.json",
@@ -46,8 +45,14 @@
 		"@types/mocha": "^5.2.7",
 		"@types/node": "^12.12.14",
 		"@types/workerpool": "^5.0.0",
+		"@typescript-eslint/eslint-plugin": "^2.10.0",
+		"@typescript-eslint/eslint-plugin-tslint": "^2.10.0",
+		"@typescript-eslint/parser": "^2.10.0",
 		"chai": "^4.2.0",
 		"codecov": "^3.6.1",
+		"eslint": "^6.7.2",
+		"eslint-plugin-import": "^2.18.2",
+		"eslint-plugin-prefer-arrow": "^1.1.7",
 		"mocha": "^6.2.2",
 		"mocha-parallel-tests": "^2.2.2",
 		"npm-check-updates": "latest",
@@ -56,8 +61,7 @@
 		"source-map-support": "^0.5.16",
 		"ts-node": "8.5.4",
 		"tsconfig-paths": "^3.9.0",
-		"tslint": "~5.20.1",
-		"tslint-plugin-prettier": "^2.0.1",
+		"tslint": "^5.20.1",
 		"typescript": "3.7.3"
 	},
 	"engines": {
