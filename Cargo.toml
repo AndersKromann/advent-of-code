@@ -1,6 +1,7 @@
 [workspace]
 members = [
 	"src/lib/rust",
+	"src/lib/rust/intcode",
 	"scaffold",
 	"scaffold/aoc-query",
 	"src/2015/day01/rust",
