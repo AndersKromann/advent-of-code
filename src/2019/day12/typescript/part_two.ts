@@ -1,36 +1,38 @@
 import { bench, read } from '@lib';
-import { clamp, lcm, pairs } from '@lib/functions';
-import { Vec3 } from '@lib/model/vec3.class';
+import { lcm } from '@lib/functions';
+import * as p from 'path';
 import { day, year } from '.';
-import { Moon } from './model';
-import { parseLines } from './parse';
 
+import { Worker } from 'worker_threads';
+import { FindCycleWorkerData } from './worker/cycle.worker';
 // export const planeState = (moons: Moon[], plane: 'x' | 'y' | 'z'): string =>
 // 	moons.map(m => `${m.pos[plane]},${m.vel[plane]}`).join(';');
 
-export const findCycle = (ms: Moon[], ps: Moon[][], plane: 'x' | 'y' | 'z'): number | undefined => {
-	for (let i = 0; ; i++) {
-		ps.forEach(([a, b]) => {
-			const d = clamp(b.pos[plane] - a.pos[plane]);
-			a.vel[plane] += d;
-			b.vel[plane] -= d;
+export const findCycleOnWorker = (workerData: FindCycleWorkerData) => {
+	return new Promise<number>((resolve, reject) => {
+		const worker = new Worker(p.resolve(__dirname, './worker/ts.worker.js'), {
+			workerData: { path: './cycle.worker.ts', ...workerData }
 		});
-		ms.forEach(m => m.step(plane));
-		if (ms.every(m => m.vel.equals(Vec3.ORIGO))) {
-			return 2 + i * 2;
-		}
-	}
+		worker.on('message', resolve);
+		worker.on('error', reject);
+		worker.on('exit', code => {
+			if (code !== 0) reject(new Error(`Worker stopped with exit code ${code}`));
+		});
+	});
 };
 
-export const runner = (input: string) => {
-	const ms = parseLines(input).map(m => new Moon(m));
-	const ps = pairs(ms);
-	const cx = findCycle(ms, ps, 'x');
-	const cy = findCycle(ms, ps, 'y');
-	const cz = findCycle(ms, ps, 'z');
+export const runner = async (input: string) => {
+	const [cx, cy, cz] = (
+		await Promise.all([
+			findCycleOnWorker({ input, plane: 'x' }),
+			findCycleOnWorker({ input, plane: 'y' }),
+			findCycleOnWorker({ input, plane: 'z' })
+		])
+	).map(r => (r as any).result as number);
 	return lcm(lcm(cx, cy), cz);
 };
 
 if (require.main === module) {
-	(async () => console.log(`Result: ${await bench(read(year, day), runner)}`))(); // 332477126821644 ~89ms
+	// 332477126821644 ~870ms (~89ms without worker threads)
+	(async () => console.log(`Result: ${await bench(read(year, day), runner)}`))();
 }
