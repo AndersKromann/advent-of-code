@@ -5,5 +5,5 @@ export class Graph<T = string> {
 
 	public constructor() {}
 
-	public aStar(start: Node<T>, goal: Node<T>, h: (n: Node<T>) => number) {}
+	public aStar(_start: Node<T>, _goal: Node<T>, _h: (n: Node<T>) => number) {}
 }

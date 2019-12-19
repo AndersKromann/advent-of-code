@@ -1,18 +1,23 @@
 import { read } from '@lib';
-import { expect } from 'chai';
 import { day, results, year } from '..';
 import { runner } from '../part_two';
 
 describe(`${year} - Day ${day} - Part Two`, () => {
-	it(`should resolve to ${results.two.input} when using the input`, async () => {
-		expect(await runner((await read(year, day)()).input)).to.equal(results.two.input);
+	test(
+        `should resolve to ${results.two.input} when using the input`,
+        async () => {
+            expect(await runner((await read(year, day)()).input)).toBe(results.two.input);
+        }
+    );
+
+	test('should be that that the first example resolves to 2772', async () => {
+		expect(await runner((await read(year, day, 'example.1.txt')()).input)).toBe(2772);
 	});
 
-	it('should be that that the first example resolves to 2772', async () => {
-		expect(await runner((await read(year, day, 'example.1.txt')()).input)).to.equal(2772);
-	});
-
-	it('should be that that the second example resolves to 4686774924', async () => {
-		expect(await runner((await read(year, day, 'example.2.txt')()).input)).to.equal(4686774924);
-	});
+	test(
+        'should be that that the second example resolves to 4686774924',
+        async () => {
+            expect(await runner((await read(year, day, 'example.2.txt')()).input)).toBe(4686774924);
+        }
+    );
 });

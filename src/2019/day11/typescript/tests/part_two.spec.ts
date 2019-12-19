@@ -5,7 +5,10 @@ import { day, results, year } from '..';
 
 describe(`${year} - Day ${day} - Part Two`, () => {
 	// TODO: ASCII ART PARSER
-	it(`should resolve to ${results.two.input} when using the input`, async () => {
-		// expect(await runner((await read(year, day)()).input)).to.equal(results.two.input);
-	});
+	test(
+        `should resolve to ${results.two.input} when using the input`,
+        async () => {
+            // expect(await runner((await read(year, day)()).input)).to.equal(results.two.input);
+        }
+    );
 });

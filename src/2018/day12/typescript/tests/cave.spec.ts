@@ -1,4 +1,3 @@
-import { expect } from 'chai';
 import { Cave } from '../model/cave.class';
 
 describe('Day 12, Cave', () => {
@@ -16,20 +15,20 @@ describe('Day 12, Cave', () => {
 		'......#.#'
 	];
 
-	it('Should be normalizing inputs on both ends:', () => {
+	test('Should be normalizing inputs on both ends:', () => {
 		for (const input of inputs) {
 			const cave = new Cave(input);
 			cave.normalize();
 			// tslint:disable-next-line: no-unused-expression
-			expect(cave.row.startsWith('....#')).to.be.true;
+			expect(cave.row.startsWith('....#')).toBe(true);
 			// tslint:disable-next-line: no-unused-expression
-			expect(cave.row.endsWith('#....')).to.be.true;
+			expect(cave.row.endsWith('#....')).toBe(true);
 		}
 	});
 
-	it('Should be a score of 325:', () => {
+	test('Should be a score of 325:', () => {
 		const cave = new Cave('.#....##....#####...#######....#.#..##.');
 		cave.offset = -3;
-		expect(cave.score()).to.equal(325);
+		expect(cave.score()).toBe(325);
 	});
 });

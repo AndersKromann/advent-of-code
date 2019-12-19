@@ -1,8 +1,6 @@
-import { Direction, Vec2 } from '@lib/model';
-import { throws } from 'assert';
+import { Vec2 } from '@lib/model';
 import { Graph } from './graph.class';
 import { GridNode } from './grid-node.class';
-import { Node } from './node.class';
 
 export class GridGraph<T = string> extends Graph<T> {
 	public nodeMap = new Map<string, GridNode<T>>();

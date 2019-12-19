@@ -1,22 +1,24 @@
 import { read } from '@lib';
-import { expect } from 'chai';
 import { day, results, year } from '..';
 import { runner } from '../part_two';
 
 describe(`${year} - Day ${day} - Part Two`, () => {
-	it(`should resolve to ${results.two.input} when using the input`, async () => {
-		expect(await runner((await read(year, day)()).input)).to.equal(results.two.input);
+	test(
+        `should resolve to ${results.two.input} when using the input`,
+        async () => {
+            expect(await runner((await read(year, day)()).input)).toBe(results.two.input);
+        }
+    );
+
+	test('should be that that the first example resolves to 1', async () => {
+		expect(await runner('112233-112233')).toBe(1);
 	});
 
-	it('should be that that the first example resolves to 1', async () => {
-		expect(await runner('112233-112233')).to.equal(1);
+	test('should be that that the second example resolves to 0', async () => {
+		expect(await runner('123444-123444')).toBe(0);
 	});
 
-	it('should be that that the second example resolves to 0', async () => {
-		expect(await runner('123444-123444')).to.equal(0);
-	});
-
-	it('should be that that the third example resolves to 1', async () => {
-		expect(await runner('111122-111122')).to.equal(1);
+	test('should be that that the third example resolves to 1', async () => {
+		expect(await runner('111122-111122')).toBe(1);
 	});
 });
