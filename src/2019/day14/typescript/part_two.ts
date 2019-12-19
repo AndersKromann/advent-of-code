@@ -47,14 +47,14 @@ export const runner = async (input: string) => {
 			i++;
 
 			if (i % 1000 === 0) {
-				console.log(i, surplus.size, lf);
+				// console.log(i, surplus.size, lf);
 			}
 		}
 		// i--;
 		// 	s -= lf;
 
 		const lel = Math.floor(cargo / s);
-		console.log('i:', i, s, lel);
+		// console.log('i:', i, s, lel);
 		cargo -= lel * s;
 
 		i *= lel;
@@ -65,8 +65,8 @@ export const runner = async (input: string) => {
 			i++;
 		}
 
-		console.log(lel * s);
-		console.log(lel);
+		// console.log(lel * s);
+		// console.log(lel);
 
 		return i - 1; // 82892753
 

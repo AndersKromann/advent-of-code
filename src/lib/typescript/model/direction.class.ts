@@ -3,7 +3,7 @@ import { directionMarkerAssociations } from './direction-marker-associations.con
 import { DirectionMarker } from './direction-marker.type';
 import { Vec2 } from './vec2.class';
 export class Direction extends Vec2 {
-	private constructor(public marker: DirectionMarker) {
+	public constructor(public marker: DirectionMarker) {
 		super(directionMarkerAssociations[marker]);
 	}
 
