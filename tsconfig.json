@@ -1,13 +1,14 @@
 {
 	"compilerOptions": {
 		"lib": ["ES2020", "esnext.asynciterable", "ESNext"],
-		"module": "commonjs",
+		"module": "ES2015",
 		"target": "ES2020",
 		"rootDir": "./src/",
 		"outDir": "./dist/",
 		"sourceMap": true,
 		"noUnusedLocals": true,
 		"declaration": false,
+		"esModuleInterop": true,
 		"moduleResolution": "node",
 		"emitDecoratorMetadata": true,
 		"experimentalDecorators": true,
