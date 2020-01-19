@@ -1,13 +1,7 @@
 import { Vec2 } from '@lib/model';
 import { Graph } from './graph.class';
 import { GridNode } from './grid-node.class';
-<<<<<<< HEAD
-
-export class GridGraph<T = string> extends Graph<T> {
-	public nodeMap = new Map<string, GridNode<T>>();
-=======
 import { Heuristic } from './heuristic.type';
->>>>>>> master
 
 export class GridGraph<T = string, N extends GridNode<T> = GridNode<T>> extends Graph<T, N> {
 	public constructor() {

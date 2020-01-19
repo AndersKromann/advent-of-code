@@ -2,12 +2,6 @@ import { ClockwiseDirection } from './clockwise-direction.enum';
 import { directionMarkerAssociations } from './direction-marker-associations.const';
 import { DirectionMarker } from './direction-marker.type';
 import { Vec2 } from './vec2.class';
-<<<<<<< HEAD
-=======
-
-console.log(Vec2);
-
->>>>>>> master
 export class Direction extends Vec2 {
 	public constructor(public marker: DirectionMarker) {
 		super(directionMarkerAssociations[marker]);

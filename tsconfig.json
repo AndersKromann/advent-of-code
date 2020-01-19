@@ -8,7 +8,6 @@
 		"sourceMap": true,
 		"noUnusedLocals": true,
 		"declaration": false,
-		"esModuleInterop": true,
 		"moduleResolution": "node",
 		"esModuleInterop": true,
 		"emitDecoratorMetadata": true,
